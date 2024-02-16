@@ -1,0 +1,32 @@
+:host {
+  --content-padding: 10px;
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+.content {
+  padding: var(--content-padding);
+}
+.brand-logo img {
+  width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+.brand-text {
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+  margin-left: 10px; /* Adjust margin as needed */
+  vertical-align:auto; /* Align text vertically with the image */
+}
+.cart-icon {
+  width: 0.1px; /* Adjust the width of the cart image */
+  margin-right: 5px; /* Adjust margin as needed */
+  margin-left: 700px; /* Adjust margin as needed */
+  height: 0.1px; /* Adjust the height of the cart image *//* Align the cart icon vertically */
+}
+
+.checkout-text {
+  margin-left: 5px; /* Adjust margin as needed */
+}

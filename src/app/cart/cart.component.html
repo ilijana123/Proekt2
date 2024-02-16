@@ -1,0 +1,25 @@
+<h3>Cart</h3>
+<p>
+  <a routerLink="/shipping">Shipping Prices</a>
+</p>
+
+<div class="cart-item bg-light p-3" *ngFor="let item of items">
+  <h6>My Order</h6>
+  <span>{{ item?.name }}</span>
+</div>
+
+<div class="card pb-5 pl-2">
+  <a routerLink="/cart" class="btn btn-dark ml-3 mt-2" type="submit">Checkout</a>
+    <div>
+      <label class="ml-3">Name</label>
+      <input class="ml-4" type="text" formControlName="name">
+    </div>
+
+    <div>
+      <label class="ml-3">Address</label>
+      <input class="ml-2" type="text" formControlName="address">
+    </div>
+
+    <button class="btn btn-dark ml-3 mt-2" type="submit">Purchase</button>
+  
+</div>
